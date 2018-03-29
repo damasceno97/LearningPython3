@@ -1,0 +1,24 @@
+O Python não fornece chaves para indicar blocos de código para definições de classe e função ou controle de fluxo. 
+Blocos de código são denotados por indentação de linha, que é rigidamente aplicada.
+
+O número de espaços no recuo é variável, mas todas as instruções dentro do bloco devem ser recuadas na mesma quantia. Por exemplo -
+
+if True:
+   print "True"
+else:
+   print "False"
+   
+----------------------------------------------------------------------------------------------------------------------------------------   
+     
+Diferente de C:
+
+
+if(True){
+
+printf("True");
+
+}else{
+
+printf("False");
+
+}
